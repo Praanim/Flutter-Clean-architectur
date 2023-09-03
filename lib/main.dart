@@ -5,7 +5,9 @@ import 'package:flutter_clean_arch/injection_container.dart';
 
 import 'features/daily_news/presentation/pages/home/daily_news.dart';
 
-void main() {
+void main() async {
+  initializeDependencies();
+
   runApp(const MyApp());
 }
 
